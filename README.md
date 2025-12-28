@@ -44,6 +44,6 @@ If your `package.json` differs, use the scripts defined there (commonly `dev`, `
 
 Feel free to open issues or pull requests. Small, focused PRs are preferred.
 
-## License
+## Credit
 
-No license specified. Add a `LICENSE` file if you wish to set a project license.
+This project was inspired by exercises from Jonas Schmedtmann’s React course.
