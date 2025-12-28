@@ -1,6 +1,6 @@
-import { Avatar } from "./components/Avatar";
-import { Intro } from "./components/Intro";
-import { SkillList } from "./components/SkillList";
+import { Avatar } from "./components/avatar";
+import { Intro } from "./components/intro";
+import { SkillList } from "./components/skillList";
 import "./styles.css";
 
 function App() {
