@@ -1,16 +1,49 @@
-# React + Vite
+# profileCard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal profile card demo built with Vite and React. The app demonstrates a small component-based UI showing an avatar, intro, and a list of skills.
 
-Currently, two official plugins are available:
+## Tech
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite
+- React (JSX)
+- Plain CSS for styling (`src/styles.css`)
 
-## React Compiler
+## Key files
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `components/avatar.jsx` — avatar display
+- `components/intro.jsx` — short intro text and name
+- `components/skill.jsx` — individual skill item
+- `components/skillList.jsx` — list of skills
+- `src/App.jsx` — main app component
+- `src/main.jsx` — app entry
 
-## Expanding the ESLint configuration
+## Setup & Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Common scripts (Vite defaults):
+
+```bash
+npm run dev    # start dev server
+npm run build  # build for production
+npm run preview # preview production build
+```
+
+If your `package.json` differs, use the scripts defined there (commonly `dev`, `build`, `preview`).
+
+## Development notes
+
+- Edit presentational components under `components/` and global styles in `src/styles.css`.
+- Static assets may be placed in `public/` (served at root during dev).
+
+## Contributing
+
+Feel free to open issues or pull requests. Small, focused PRs are preferred.
+
+## License
+
+No license specified. Add a `LICENSE` file if you wish to set a project license.
