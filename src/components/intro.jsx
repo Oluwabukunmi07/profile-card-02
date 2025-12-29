@@ -4,8 +4,8 @@ export function Intro() {
       <h1>Oluwabukunmi Akinbisola</h1>
 
       <p>
-        Front-end Web developer. I am currently a 300l Software Engineering
-        student at the Federal University of Technology, Akure.
+        A 300L Software Engineering student at The Federal University of
+        Technology, Akure and an aspiring Front-end Developer.
       </p>
     </div>
   );
