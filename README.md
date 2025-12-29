@@ -9,7 +9,7 @@ A minimal, component-based profile card built to practice React fundamentals. Th
 - **Modern Tooling**: Setting up a fast development environment using **Vite** and **Rolldown**.
 - **Code Quality**: Using **ESLint** to maintain clean and consistent JSX.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 19**
 - **Vite** (via rolldown-vite)
