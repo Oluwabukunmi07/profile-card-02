@@ -1,21 +1,28 @@
-# profileCard
+# profile-card-02
 
-A minimal profile card demo built with Vite and React. The app demonstrates a small component-based UI showing an avatar, intro, and a list of skills.
+A minimal, component-based profile card built to practice React fundamentals. This project focuses on creating modular UI components and managing data flow using props.
 
-## Tech
+## What I Practiced
 
-- Vite
-- React (JSX)
-- Plain CSS for styling (`src/styles.css`)
+- **Component Architecture**: Breaking the UI into reusable pieces like `Avatar`, `Intro`, and `SkillList`.
+- **Props Mastery**: Dynamically passing data (skill name, emoji, and hex colors) to the `Skill` component.
+- **Modern Tooling**: Setting up a fast development environment using **Vite** and **Rolldown**.
+- **Code Quality**: Using **ESLint** to maintain clean and consistent JSX.
 
-## Key files
+## 🛠️ Tech Stack
 
-- `components/avatar.jsx` — avatar display
-- `components/intro.jsx` — short intro text and name
-- `components/skill.jsx` — individual skill item
-- `components/skillList.jsx` — list of skills
-- `src/App.jsx` — main app component
-- `src/main.jsx` — app entry
+- **React 19**
+- **Vite** (via rolldown-vite)
+- **ESLint** for linting
+- **Custom CSS** for styling
+
+## Project Structure
+
+- `src/components/avatar.jsx`: Displays the profile image.
+- `src/components/intro.jsx`: Contains the name and bio.
+- `src/components/skill.jsx`: A reusable component for individual skill tags.
+- `src/components/skillList.jsx`: The parent component that passes props to all skills.
+- `src/styles.css`: Custom "IBM Plex Mono" typography and card layout.
 
 ## Setup & Scripts
 
